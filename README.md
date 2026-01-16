@@ -4,7 +4,11 @@ Internal cybersecurity audit and risk assessment for a retail scenario, focusing
 ## Introduction
 The scope of this audit is the entire security program at Botium Toys. The goal is to assess existing assets and complete a controls and compliance checklist to determine necessary implementations to improve the company's security posture.
 +1
-
+---
+**NOTE:** This project is a practical exercise from a cybersecurity training program. 
+- **Date:** January 2026
+- **Scenario:** The audit is based on a fictional case study of a toy company ("Botium Toys") to demonstrate internal audit skills, risk assessment, and compliance gap analysis.
+---
 ## Audit Findings
 Based on the risk assessment, the company currently has a risk score of 8/10. Key observations include:
 +1
