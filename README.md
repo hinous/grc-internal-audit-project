@@ -21,15 +21,22 @@ Based on the risk assessment, the company currently has a risk score of 8/10. Ke
 
  Compliance: The IT department has a plan for 72-hour breach notification for E.U. customers (GDPR) , but lacks sufficient controls for PCI DSS.
 +1
+### Compliance Evaluation
 
-## Control Assessment
-The audit evaluated three main categories of controls:
+| Regulation | Adherence | Key Finding |
+| :--- | :--- | :--- |
+| **PCI DSS** | ❌ NO | [cite_start]Lack of encryption and unauthorized access to cardholder data[cite: 73, 74]. |
+| **GDPR** | ⚠️ PARTIAL | [cite_start]72-hour breach notification plan exists, but data classification is needed[cite: 81, 82]. |
+| **SOC Type 1/2** | ❌ NO | [cite_start]Confidentiality and integrity controls for sensitive data are missing[cite: 73, 75]. |
 
+### Control Assessment Checklist
 
- Administrative: Evaluated least privilege, separation of duties, and disaster recovery plans.
-
-
- Technical: Assessed firewalls, IDS, encryption, and backups.
-
-
- Physical: Verified locks, CCTV, and fire detection systems.
+| Control | Status | Category | Type |
+| :--- | :--- | :--- | :--- |
+| **Least Privilege** | ❌ NO | Administrative | Preventative |
+| **Disaster Recovery Plan** | ❌ NO | Administrative | Corrective |
+| **Firewall** | ✅ YES | Technical | Preventative |
+| **IDS** | ❌ NO | Technical | Detective |
+| **Backups** | ❌ NO | Technical | Corrective |
+| **Antivirus Software** | ✅ YES | Technical | Corrective |
+| **CCTV Surveillance** | ✅ YES | Physical | Preventative/Detective |
